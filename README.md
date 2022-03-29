@@ -1,7 +1,7 @@
 # Non-intrusive-Speech-Quality-Models
 Comparison of Non-Intrusive Deep Models for Predicting Overall Speech Quality
 
-Model weights for fine-tuned and retrained versions of the single-ended speech quality prediction model, NISQA, are provided here. Weights for three models are provided:
+Model weights for fine-tuned and retrained versions of the single-ended speech quality prediction model, [NISQA](https://github.com/gabrielmittag/NISQA), are provided here. Weights for three models are provided:
 
 - Baseline model that is made of a deep feed forward component, followed by BiLSTM component, followed by average pooling.
 - Fine-tuned NISQA model that is made of six CNN layers, followed by self-attention component, followed by attention-pooling.
@@ -9,7 +9,7 @@ Model weights for fine-tuned and retrained versions of the single-ended speech q
 
 **Instructions**
 
-To use the baseline/fine-tuned/retrained weights, download the weight file (example retrained.tar) and refer to the open-source [NISQA](https://github.com/gabrielmittag/NISQA) framework for executing prediction, evaluation, or further fine-tuning these weights.
+To use the baseline/fine-tuned/retrained weights, download the weight file (example retrained.tar) and refer to the open-source NISQA framework for executing prediction, evaluation, or further fine-tuning these weights.
 
 **Usage**
 
